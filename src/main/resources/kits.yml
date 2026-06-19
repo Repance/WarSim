@@ -1,0 +1,6 @@
+kits:
+  default:
+    enabled: false
+    display-name: "Default"
+    items: {}
+    armor: {}

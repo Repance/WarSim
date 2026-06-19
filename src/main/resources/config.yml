@@ -1,0 +1,34 @@
+settings:
+  min-players: 2
+  max-players: 10
+  auto-start: false
+  pregame-countdown: 10
+  game-start-countdown: 5
+  endgame-delay: 7
+
+commands:
+  allowed-in-game:
+    - hub
+    - ws leave
+    - warsim leave
+
+spectator:
+  enabled: true
+  can-fly: true
+  allow-interact: false
+  allow-item-drop: false
+  allow-item-pickup: false
+  allow-block-break: false
+  allow-block-place: false
+  allow-damage: false
+
+friendly-fire:
+  enabled: false
+
+locations:
+  pregame: {}
+  return: {}
+
+arena:
+  spawn-a: {}
+  spawn-b: {}

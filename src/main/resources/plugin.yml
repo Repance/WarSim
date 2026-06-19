@@ -1,0 +1,58 @@
+name: WarSim
+version: "1.0.0"
+main: com.repance.warsim.WarSim
+api-version: "1.21"
+authors: [repance]
+description: Team vs team war simulation
+
+commands:
+  ws:
+    description: WarSim hoofdcommand
+    usage: /ws
+    aliases: [warsim]
+
+permissions:
+  warsim.use:
+    description: Basis permissie voor WarSim
+    default: true
+
+  warsim.join:
+    description: Speler mag WarSim joinen
+    default: true
+
+  warsim.leave:
+    description: Speler mag WarSim verlaten
+    default: true
+
+  warsim.start:
+    description: Speler mag countdown starten
+    default: true
+
+  warsim.forcestart:
+    description: Admin mag force start gebruiken
+    default: op
+
+  warsim.stop:
+    description: Admin mag games stoppen
+    default: op
+
+  warsim.setup:
+    description: Admin mag lobby en spawns instellen
+    default: op
+
+  warsim.reload:
+    description: Admin mag WarSim reloaden
+    default: op
+
+  warsim.admin:
+    description: Admin permissie voor WarSim setup commands
+    default: op
+    children:
+      warsim.use: true
+      warsim.join: true
+      warsim.leave: true
+      warsim.start: true
+      warsim.forcestart: true
+      warsim.stop: true
+      warsim.setup: true
+      warsim.reload: true

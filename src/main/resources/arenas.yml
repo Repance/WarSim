@@ -1,0 +1,7 @@
+arenas:
+  default:
+    enabled: true
+    display-name: "Default Arena"
+    spawns:
+      a: {}
+      b: {}

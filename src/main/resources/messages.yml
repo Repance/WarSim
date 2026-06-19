@@ -1,0 +1,35 @@
+messages:
+  joined: "&aJe bent gejoined in de WarSim pregame lobby."
+  left: "&eJe hebt WarSim verlaten."
+  already-in-game: "&cJe zit al in WarSim."
+  not-in-game: "&cJe zit niet in WarSim."
+  queue-full: "&cDe WarSim queue zit vol."
+  pregame-not-set: "&cPregame lobby is nog niet ingesteld."
+  enough-players: "&eEr zijn genoeg spelers. Gebruik &f/ws start &eom de countdown te starten."
+  countdown-started: "&aDe countdown is gestart door &f%player%&a."
+  forced-start: "&aDe game is geforceerd gestart door &f%player%&a."
+  forced-stop: "&cWarSim is gestopt door &f%player%&c."
+  returning-to-lobby: "&7Je wordt over %seconds% seconden terug gestuurd naar de lobby..."
+  team-a-joined: "&aJe bent &cTeam A &agejoined."
+  team-b-joined: "&aJe bent &9Team B &agejoined."
+  auto-joined: "&aJe bent AUTO gejoined."
+  team-full: "&cDit team zit momenteel vol."
+  teams-locked: "&aTeams zijn gekozen!"
+  no-winner: "&7Niemand heeft gewonnen."
+
+titles:
+  win:
+    title: "&a&lGEWONNEN"
+    subtitle: "&7Jouw team heeft gewonnen!"
+  lose:
+    title: "&c&lHELAAS"
+    subtitle: "&7Jouw team heeft verloren."
+  stop:
+    title: "&cGESTOPT"
+    subtitle: "&7Game is gestopt"
+  cancelled:
+    title: "&cGECANCELD"
+    subtitle: "&7Te weinig spelers"
+  go:
+    title: "&aGO!"
+    subtitle: ""
